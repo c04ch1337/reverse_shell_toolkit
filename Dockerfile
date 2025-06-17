@@ -9,4 +9,4 @@ COPY cert.pem key.pem /app/
 
 EXPOSE 443
 
-CMD ["bash", "watchdog.sh"]
+CMD ["bash", "/app/watchdog.sh"]
