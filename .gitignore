@@ -1,0 +1,9 @@
+# Git Ignore for Reverse Shell Toolkit
+*.pyc
+*.log
+*.zip
+__pycache__/
+*.pem
+*.key
+*.crt
+windows/svchost.exe
